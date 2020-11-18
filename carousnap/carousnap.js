@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
   }
   setAttr(link_css, {
     rel: "stylesheet",
-    href: "https://carousnap.github.io/carousnap/carousnap.css",
+    href: "https://cdn.jsdelivr.net/gh/carousnap/carousnap.github.io@342e8ef/carousnap/carousnap.css",
     style: "text/css",
   });
 
