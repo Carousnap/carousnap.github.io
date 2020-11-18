@@ -1,26 +1,6 @@
 let isScroll = true;
 
 window.addEventListener("load", function () {
-  const scriptCarousnap = document.getElementById("scriptCarousnap");
-  const hrefLink = scriptCarousnap.getAttribute("src");
-  const replaceExt = hrefLink.substr(0, hrefLink.lastIndexOf(".")) + ".css";
-
-  const link_css = document.createElement("link");
-
-  function setAttr(element, values) {
-    for (var key in values) {
-      element.setAttribute(key, values[key]);
-    }
-  }
-  setAttr(link_css, {
-    rel: "stylesheet",
-    href: "https://cdn.jsdelivr.net/gh/carousnap/carousnap.github.io@342e8ef/carousnap/carousnap.css",
-    style: "text/css",
-  });
-
-  const header = document.head;
-
-  header.appendChild(link_css);
 
   const carousel = document.querySelectorAll(".carouSnap");
 
