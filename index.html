@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="Make own Carousel with Easy and Fast" />
+	<meta name="keywords" content="Custom Carousel, Carousnap, Snap, Slide Photos" />
+	
+	<meta name="theme-color" content="#571E3EDF" />
+	<meta name="msapplication-navbutton-color" content="#571E3EDF" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="#571E3EDF" />
+	
+	
+	<link href='./favicon.png' rel='icon' sizes='12x12' type='image/gif'/>
+
+    <title>Carousnap - Easy Snap Carousel</title>
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+  
+	<div class="container">
+			
+		<div id="left">
+			<div class="wrap-left">
+				
+					<a class="back-button">x</a>
+					<div class="link-top">
+						<h2>Carousnap</h2>
+						<ul>
+							<li onClick="goto('right')">Beranda</li>
+							<li onClick="goto('feature')">Fitur</li>
+							<li onClick="goto('installation')">Instalasi</li>
+							<li onClick="goto('usage')">Penggunaan</li>
+						</ul>
+					</div>
+					
+					<br/>
+					<div class="link-bottom">
+						<a href="#" target="_blank">Laporkan Masalah</a>
+					</div>
+				
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div id="right">
+		
+			
+			<div class="wrap-right">
+				<div class="version">
+					<select class="select-version">
+						<option value="1">BETA Version</option>
+					</select>
+				</div>
+				
+				<header>
+					<h1>Carou<span>snap</span></h1>
+					<p>Buat Caraousel dengan <b>Mudah</b>, dan juga <b>Cepat</b>!</p>
+				
+					<hr/>
+				</header>
+				
+				<div class="content-header">
+					<div class="side sideTry">
+						<div class="carouSnap" data-width="300px" data-height="300px">
+							<div class="numbSlide"></div>
+							<div class="bnSlide"> </div>
+							<div class="photoCollect">
+								<!-- MAXIMUM 10 PHOTOS-->
+								<img src="./img-carousnap/carousnap-1.png" alt="Carousnap 1" title="Carousnap 1" />
+								<img src="./img-carousnap/carousnap-2.png" alt="Carousnap 2" title="Carousnap 2" />
+								<img src="./img-carousnap/carousnap-3.png" alt="Carousnap 3" title="Carousnap 3" />
+								<img src="./img-carousnap/carousnap-4.png" alt="Carousnap 4" title="Carousnap 4" />
+								<img src="./img-carousnap/carousnap-5.png" alt="Carousnap 5" title="Carousnap 5" />
+								<img src="./img-carousnap/carousnap-6.png" alt="Carousnap 6" title="Carousnap 6" />
+								<img src="./img-carousnap/carousnap-7.png" alt="Carousnap 7" title="Carousnap 7" />
+								<img src="./img-carousnap/carousnap-8.png" alt="Carousnap 8" title="Carousnap 8" />
+								<!-- MAXIMUM 10 PHOTOS-->
+							</div>
+							<div class="indCat"></div>
+						</div>
+						<p><u>Try it !</u></p>
+					</div>
+					<div class="side">
+						<h3>Apa ini ?</h3>
+						<p><b>Carousnap</b> merupakan kumpulan foto yang di tampung 
+							kedalam satu wadah sehingga <b>menghemat 
+							ruang tata letak</b> dalam menampilkan 
+							<b>banyak</b> foto sekaligus. <br/><br/>Project ini dibuat dengan menggunakan <u>Vanilla JavaScript</u> dan <u>CSS</u>.</p>
+						<br/>
+						<p class="paragraph-2">Dan ini <u>bukanlah sebuah slideshow</u> yang akan bergeser dalam 
+						rentang waktu tertentu. <b>diperlukan aksi dari user</b> untuk
+						menggeser foto ke slide selanjutnya</p>
+					</div>
+				</div>
+				
+				<div class="content-fitur" id="feature">
+					<h2>Fitur</h2>
+					<hr/>
+					<div class="wrap-fitur">
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/NumberSlider.png" alt="Number Slide" title="Number Slide" class="img-fitur"/>
+							</div>
+							<div class="info">
+								<h5>Number Slide</h5>
+								<p>Jumlah Foto dan Urutan Foto yang sedang dilihat</p>
+							</div>
+						</div>
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/IndicatorBar.png" alt="Indicator Bar" title="Indicator Bar" class="img-fitur"/>
+							</div>
+							<div class="info">
+								<h5>Indicator Bar</h5>
+								<p>Mempercepat Pengguna menuju foto yang ingin dilihat</p>
+							</div>
+						</div>
+							<div class="fitur">
+							<div class="images">
+								<img src="./img/ButtonSlide.png" alt="Button Prev / Next" title="Button Prev / Next" class="img-fitur"/>
+							</div>
+							<div class="info">
+								<h5>Button Prev / Next</h5>
+								<p>Pengguna dapat Menggeser 1 Foto / Slide Selanjutnya </p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="support">
+					<h2>Support Touch Event</h2>
+					<p>diperangkat mobile hanya perlu <b>Swipe</b> untuk menggeser foto</p><br/>
+					<div class="gif-swipe">
+						<img src="./img/touchEvent.gif" alt="Touch Event" title="Touch Event" />
+					</div>
+				</div>
+			
+			
+				<div class="content-support">
+					<h3>Keunggulan Carousnap</h3>
+					<hr/>
+					<div class="wrap-fitur">
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/NoDependencies.png" alt="Number Slide" title="Number Slide" />
+							</div>
+							<div class="info">
+								<h5>Zero Dependencies</h5>
+								<p>Tidak bergantung pada Package / Modul apapun, dibuat menggunakan Javascript dan CSS</p>
+							</div>
+						</div>
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/FitCover.png" alt="Indicator Bar" title="Indicator Bar" />
+							</div>
+							<div class="info">
+								<h5>Fit Cover / Position Center</h5>
+								<p>Foto otomatis memiliki Posisi di tengah jika lebar sedikit melebihi pembungkusnya</p>
+							</div>
+						</div>
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/Responsive.png" alt="Button Prev / Next" title="Button Prev / Next" />
+							</div>
+							<div class="info">
+								<h5>Responsive</h5>
+								<p>Lebar selalu Full / Memenuhi pembungkus jika kurang dari Max Width yang ditentukan</p>
+							</div>
+						</div>
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/SupportBrowser.png" alt="Support Browser" title="Support Browser" />
+							</div>
+							<div class="info">
+								<h5>Support Browser</h5>
+								<p>Hampir sebagian besar browser telah mendukung CSS Snap-Type </p>
+							</div>
+						</div>
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/EasyToUse.png" alt="Easy to use" title="Easy to use" />
+							</div>
+							<div class="info">
+								<h5>Easy to Use</h5>
+								<p>Salin Code Carousnap , tempel ke project anda , dan Jalankan!</p>
+							</div>
+						</div>
+						<div class="fitur">
+							<div class="images">
+								<img src="./img/Fast.png" alt="Fast" title="Fast" />
+							</div>
+							<div class="info">
+								<h5>Fast</h5>
+								<p>Ukuran fIle yang perlukan lebih kurang sebesar 14 KB</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="space">
+				</div>
+				<div class="content-instalasi" id="installation">
+					<h2>Instalasi</h2>
+					<hr/>
+					
+					<ul>
+						<li>
+							<p class="pdoc">Saat ini instalasi hanya bisa dilakukan secara manual</p>
+						</li>
+						<li>
+							<p class="pdoc">Silahkan klik link berikut untuk download sumber file : </p>
+							<a href="#" download class="btn-download">Download disini !</a>
+						</li>
+					
+						<li>
+							<p class="pdoc">Ekstrak sumber file dan pindahkan folder <u>carousnap</u> kedalam project anda!</p>
+						</li>
+						
+						<li>
+							<p class="pdoc">Terdapat 2 File dalam Folder carousnap, sekarang tinggal menghubungkan script carousnap.js kedalam halaman utama project web anda Misal Index.html</p>
+							<div class="img-doc">
+								<img src="./img/FolderCarousnap.png" alt="Folder CarouSnap" title="Foder CarouSnap" />
+							</div>
+						</li>
+						
+						<li>
+							<p class="pdoc">Letakkan script berikut tepat diatas tag penutup body :</p>
+							<pre class="display-code">
+<code class="code-html">&lt;script type="text/javascript" src="./carousnap/carousnap.js" id="scriptCarousnap"&gt;&lt;/script&gt;
+</code></pre>
+						</li>
+						
+						<li>
+							<p class="pdoc">Perlu diperhatikan, Jangan memisahkan file carousnap.css dan carousnap.js ! , pastikan file carousnap.css berada 1 folder dengan carousnap.js agar file css dapat terpanggil dengan baik.</p>
+						
+						</li>
+					</ul>
+				</div>
+				<div class="space"></div>
+				<div class="content-instalasi" id="usage">
+					<h2>Penggunaan</h2>
+					<hr/>
+					
+					<ul>
+						<li>
+							<h3>Mulai</h3>
+							<p class="pdoc">Salin Kode Berikut, Kode ini berfungsi untuk membuat Element CarouSnap. dan disinilah anda meletakkan beberapa foto anda</p>
+							<pre class="display-code">
+<code class="code-html">&lt;div class="carouSnap"&gt;
+	&lt;div class="numbSlide"&gt;&lt;/div&gt;
+	&lt;div class="bnSlide"&gt; &lt;/div&gt;
+	&lt;div class="photoCollect"&gt;
+		&lt;!-- YOUR IMAGE HERE (Maximum 10 Photos &amp; Minimum 1 Photo) --&gt;
+		&lt;!-- &lt;img src="#src" alt="#alt-image" title="#title-image" /&gt; --&gt;
+	&lt;/div&gt;
+	&lt;div class="indCat"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+							
+							
+							<p class="notes">demi menghindari image stretch , pastikan <U>dimensi</u> perbandingan foto <b>tidak terlalu jauh</b>. misal 4:5 , 1:1 </p>
+						</li>
+						
+						<li>
+							<h3>Resize</h3>
+							<p class="pdoc">Ukuran default <u>max width adalah <b>600px</b></u>, untuk mengubah ukuran tersebut, bisa dilakukan dengan menambahkan atribut <b>data-width="value"</b> dan <b>data-height="value"</b> pada element yang memiliki nama class <b>carouSnap</b>.</p>
+							<pre class="display-code">
+<code class="code-html">&lt;div class="carouSnap" data-width="value" data-height="value"&gt;
+	&lt;div class="numbSlide"&gt;&lt;/div&gt;
+	&lt;div class="bnSlide"&gt; &lt;/div&gt;
+	&lt;div class="photoCollect"&gt;
+		&lt;!-- YOUR IMAGE HERE (Maximum 10 Photos &amp; Minimum 1 Photo) --&gt;
+		&lt;!-- &lt;img src="#src" alt="#alt-image" title="#title-image" /&gt; --&gt;
+	&lt;/div&gt;
+	&lt;div class="indCat"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+						</li>
+						
+						<li>
+							<h3>Styling Rounded Border</h3>
+							<p class="pdoc">border melengkung pada setiap sisi cukup tambahkan <b>.carouSnap-round</b> pada class carouSnap</p>
+							<div class="carouSnap carouSnap-round" ">
+								<div class="numbSlide"></div>
+								<div class="bnSlide"> </div>
+								<div class="photoCollect">
+									<img src="./img-carousnap/carousnap-6.png" alt="Carousnap 6" title="Carousnap 6" />
+									<img src="./img-carousnap/carousnap-7.png" alt="Carousnap 7" title="Carousnap 7" />
+									<img src="./img-carousnap/carousnap-8.png" alt="Carousnap 8" title="Carousnap 8" />
+								</div>
+								<div class="indCat"></div>
+							</div>
+							<pre class="display-code">
+<code class="code-html">&lt;div class="carouSnap carouSnap-round"&gt;
+	&lt;div class="numbSlide"&gt;&lt;/div&gt;
+	&lt;div class="bnSlide"&gt; &lt;/div&gt;
+	&lt;div class="photoCollect"&gt;
+		&lt;!-- YOUR IMAGE HERE (Maximum 10 Photos &amp; Minimum 1 Photo) --&gt;
+		&lt;!-- &lt;img src="#src" alt="#alt-image" title="#title-image" /&gt; --&gt;
+	&lt;/div&gt;
+	&lt;div class="indCat"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+						</li>
+						
+					</ul>
+					<div class="space">
+						<p class="notes">Untuk mendapatkan hasil ukuran yang baik, disarankan menggunakan tag pembungkus / parent element yang sudah di beri style ukuran tertentu.</p>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+			<div class="footer">
+			
+				<p>Ada fitur Tambahan ? <a href="#" class="link" target="_blank">Github</a></p>
+			
+			</div>
+			
+		</div>
+			
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+	<script type="text/javascript" src="./carousnap/carousnap.js" id="scriptCarousnap"></script>
+  </body>
+</html>
