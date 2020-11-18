@@ -1,2 +1,2 @@
 # carousnap.github.io
-Create your Carousel and Snap to Swipe it in Mobile!
+Create your Carousel and Snap it, and  Just Swipe in Mobile!
