@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 .carouSnap,
 .numbSlide,
@@ -22,7 +22,7 @@ div.carouSnap {
   --maxWidth: 600px;
   --height: 400px;
   /*RESIZE THE CAROUSEL HERE*/
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 auto;
   width: 100%;
   max-width: var(--maxWidth);
@@ -85,6 +85,12 @@ div.carouSnap div.bnSlide > button {
   outline: none;
   background-color: rgb(255, 255, 255, 0.7);
   cursor: pointer;
+}
+
+div.carouSnap:hover div.bnSlide{
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex;
 }
 
 div.carouSnap div.photoCollect {
