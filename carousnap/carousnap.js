@@ -1,7 +1,6 @@
 let isScroll = true;
 
 window.addEventListener("load", function () {
-
   const carousel = document.querySelectorAll(".carouSnap");
 
   carousel.forEach((crs) => {
@@ -164,31 +163,6 @@ window.addEventListener("touchstart", function (e) {
         slider.value = currentSlide;
       }
     });
-  }
-});
-
-window.addEventListener("touchend", function (e) {
-  if (e.target.parentElement.className == "photoCollect") {
-    const btnSlide = e.target.parentElement.parentElement.children[1];
-    btnSlide.style.display = "none";
-  }
-});
-
-document.body.addEventListener("mouseover", function (e) {
-  if (e.target.parentElement.className == "photoCollect") {
-    const btnSlide = e.target.parentElement.parentElement.children[1];
-    btnSlide.style.display = "flex";
-
-    btnSlide.addEventListener("mousemove", function () {
-      btnSlide.style.display = "flex";
-    });
-  }
-});
-
-document.body.addEventListener("mouseout", function (e) {
-  if (e.target.parentElement.className == "photoCollect") {
-    const btnSlide = e.target.parentElement.parentElement.children[1];
-    btnSlide.style.display = "none";
   }
 });
 
